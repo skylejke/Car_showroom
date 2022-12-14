@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/skyline"
+        android:layout_width="175dp"
+        android:layout_height="200dp"
+        android:src="@drawable/skyline"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/skyline_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/inria_sans_italic"
+        android:text="Nissan Skyline GT-R (R34)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/skyline_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="96dp"
+        android:text="80 000 $"
+        android:fontFamily="@font/inria_sans_italic"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/skyline_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/inria_sans_italic"
+        android:text="1999"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/supra"
+        android:layout_width="175dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/supra"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/supra_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="232dp"
+        android:fontFamily="@font/inria_sans_italic"
+        android:text="Toyota Supra (A80)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="264dp"
+        android:fontFamily="@font/inria_sans_italic"
+        android:text="1993"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/supra_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="296dp"
+        android:text="66 000 $"
+        android:fontFamily="@font/inria_sans_italic"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/rx7"
+        android:layout_width="175dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/rx7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/supra_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="432dp"
+        android:fontFamily="@font/inria_sans_italic"
+        android:text="Mazda RX-7 (FD)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rx7_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="496dp"
+        android:text="47 000 $"
+        android:fontFamily="@font/inria_sans_italic"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rx7_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="464dp"
+        android:fontFamily="@font/inria_sans_italic"
+        android:text="1995"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_skyline"
+        android:layout_width="222dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="124dp"
+        android:onClick="startSkyline"
+        android:text="Показать информацию"
+        android:textSize="11sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_supra"
+        android:layout_width="222dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="324dp"
+        android:onClick="startSupra"
+        android:text="Показать информацию"
+        android:textSize="11sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_rx7"
+        android:layout_width="222dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="524dp"
+        android:onClick="startRX7"
+        android:text="Показать информацию"
+        android:textSize="11sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
